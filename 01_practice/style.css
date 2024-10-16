@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+body {
+    font-family: "Times New Roman",
+        "YuMincho",
+        "Hiragino Mincho ProN",
+        "Yu Mincho",
+        "MS PMincho",
+        serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0.5;
+}
+
+.top {
+    background: url(./images/bg_main.png)no-repeat top center/cover;
+    padding: 240px 0 80px 0;
+}
+
+.top .text {
+    width: 340px;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.top p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.top .title {
+    font-size: 36px;
+    line-height: 1.38;
+}
+
+h2 {
+    margin-top: 155px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.19;
+    margin-bottom: 70px;
+}
+
+h2::before {
+    content: "KUMONが向き合うもの";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    width: 195px;
+    background-color: #72C9F3;
+    color: #fff;
+    padding: 8px 15px;
+    margin-bottom: 25px;
+}
+
+h2::after {
+    content: "";
+    border-bottom: 1px solid #000;
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.allarticle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+article {
+    position: relative;
+}
+
+article .img-p {
+    position: absolute;
+    left: 20px;
+    bottom: 70px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: #fff;
+    line-height: 1.7;
+    padding: 20px;
+}
+
+.tag {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tag p {
+    margin-left: 10px;
+    background-color: #F5F5F5;
+    padding: 5px 12px;
+}
+
+dl {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.border ::before {
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    content: "";
+    display: block;
+    border-top: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    padding: 100px 0;
+    background-color: #1E1E1E;
+    color: #fff;
+}
+
+footer .inner {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+small {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* 640 */
