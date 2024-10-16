@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+body {
+    color: #6c6c6f;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    letter-spacing: 0;
+}
+
+/* header */
+.header {
+    padding: 30px 0;
+    background-color: #123D88;
+}
+
+.header__inner {
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__logo {
+    line-height: 1;
+}
+
+/* main */
+
+/* -------- module ---------*/
+/* unit */
+.unit__catch {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #256BE6;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /*全て英語大文字にする*/
+}
+
+.unit__title {
+    color: #262934;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.unit__text {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.unit--center {
+    text-align: center;
+}
+
+/* card */
+.card__icon {
+    margin-bottom: 40px;
+}
+
+.card__title {
+    font-weight: bold;
+    font-size: 22px;
+    color: #2F2F35;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+
+/*----------index.html----------*/
+/* features */
+.features {
+    padding: 80px 0;
+}
+
+.features__inner {
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.features__info {
+    width: 46%;
+    /* 552/1200*100 */
+}
+
+.features__list {
+    width: 46%;
+    margin-bottom: -70px;
+    /* 二列目のbottom余白を消すため */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features__item {
+    width: 46%;
+    margin-bottom: 70px;
+    /* 他のところに影響が出ないところにmargin */
+}
+
+/* payment */
+.payment {
+    background-color: #F7FAFF;
+    padding: 80px 0;
+}
+
+.payment__inner {
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment__img {
+    width: 46%;
+}
+
+.payment__info {
+    width: 46%;
+}
+
+/* --------- service ----------- */
+
+/* wedo */
+.wedo {
+    padding: 80px 0;
+}
+
+.wedo__info {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.wedo__inner {
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.wedo__list {
+    background-color: #F7FAFF;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wedo__item {
+    width: 30%;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.wedo__item .btn {
+    background-color: #2DBE61;
+    width: 100%;
+}
+
+/* offer */
+.offer {
+    background-color: #505050;
+}
+
+.offer__inner {
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.offer__info {
+    padding: 80px 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.offer__info .unit__title {
+    color: #fff;
+}
+
+.offer__info .btn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --------- help --------- */
+
+/* paymentlow */
+.transfer {
+    margin: 80px 0;
+}
+
+.transfer__info {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.transfer__inner {
+    text-align: center;
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transfer__list {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* question */
+.question {
+    background-color: #123D88;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.question .btn--warning {
+    background-color: #F87624;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question__info .unit__title {
+    color: #fff;
+}
+
+.question__inner {
+    text-align: center;
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* asked */
+.asked {
+    padding: 80px 0;
+}
+
+.asked__inner {
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+.asked__info {
+    width: 46%;
+    /* 552/1200*100 */
+}
+
+.asked__list {
+    width: 46%;
+    margin-bottom: -70px;
+    /* 二列目のbottom余白を消すため */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 最後だけ */
+.card__title:last-child {
+    margin-bottom: 0;
+}
+
+.asked__item {
+    width: 46%;
+    margin-bottom: 70px;
+    border: 1px #6c6c6f solid;
+    padding: 40px;
+    text-align: center;
+    /* 他のところに影響が出ないところにmargin */
+}
+
+/* footer */
+.footer {
+    padding: 32px;
+    background-color: #123D88;
+    text-align: right;
+}
+
+.footer__inner {
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__copy {
+    color: #fff;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.btn {
+    margin-top: 60px;
+    display: block;
+    width: 200px;
+    padding: 20px 0;
+    background-color: #256BE6;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.025em;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.btn--outline {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
